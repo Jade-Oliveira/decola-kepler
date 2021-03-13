@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <AppTopBar/>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -30,3 +31,15 @@
   }
 }
 </style>
+
+<script>
+import AppTopBar from './components/AppTopBar'
+
+export default {
+  name: 'App',
+  components: {
+    AppTopBar
+  },
+};
+</script>
+
