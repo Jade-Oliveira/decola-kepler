@@ -27,6 +27,7 @@ export default {
 h2 {
   font-family: "Sulphur Point";
   text-align: center;
+  margin-top: 25px;
   font-size: 30px;
 }
 p {
