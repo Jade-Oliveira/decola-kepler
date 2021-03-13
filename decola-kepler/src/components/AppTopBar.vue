@@ -1,6 +1,6 @@
 <template>
   <div class="app-top-bar">
-    <v-app-bar app color="pink lighten-3" dark>
+    <v-app-bar app color="purple lighten-4" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
       <v-toolbar-title> <p>Pascoa Acessível</p> </v-toolbar-title>
@@ -64,5 +64,8 @@ p {
   font-family: "Sulphur Point";
   text-align: center;
   font-size: 25px;
+}
+.theme--dark.v-app-bar.v-toolbar.v-sheet {
+    background-color: pink!important;
 }
 </style>
