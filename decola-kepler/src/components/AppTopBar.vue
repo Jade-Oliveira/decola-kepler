@@ -3,7 +3,7 @@
       <v-app-bar app color="green" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Pascoa Acessível </v-toolbar-title>
+      <v-toolbar-title>  <p>Pascoa Acessível</p> </v-toolbar-title>
     </v-app-bar>
 
         <v-navigation-drawer
@@ -59,6 +59,17 @@ export default {
 
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap");
+ p{
+   
 
+  font-family: "Sulphur Point";
+
+  text-align: center;
+
+  font-size: 25px;
+
+
+ }
 
 </style>
