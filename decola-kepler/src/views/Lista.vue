@@ -42,10 +42,17 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap");
 
+h2 {
+    font-family: "Sulphur Point";
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 p {
     font-family: "Sulphur Point";
     font-size: 15px;
     margin: 2px;
+    text-align: center;
 }
 
 li {
