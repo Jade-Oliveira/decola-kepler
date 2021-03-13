@@ -3,7 +3,7 @@
     <v-app-bar app color="purple lighten-4" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
-      <v-toolbar-title> <p>Pascoa Acessível</p> </v-toolbar-title>
+      <v-toolbar-title> <p>Páscoa Acessível</p> </v-toolbar-title>
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" absolute temporary>
@@ -27,12 +27,12 @@
             </v-list-item>
           </router-link>
 
-          <router-link to="/">
+          <router-link to="/listaopcoes">
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-magnify</v-icon>
               </v-list-item-icon>
-              <v-list-item-title>Lista de locais</v-list-item-title>
+              <v-list-item-title>Lista de Opções</v-list-item-title>
             </v-list-item>
           </router-link>
         </v-list-item-group>
