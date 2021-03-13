@@ -3,7 +3,7 @@
       <v-app-bar app color="green" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>  <p>Pascoa Acessível</p> </v-toolbar-title>
+      <v-toolbar-title>  <p>Páscoa Acessível</p> </v-toolbar-title>
     </v-app-bar>
 
         <v-navigation-drawer
