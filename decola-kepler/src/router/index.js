@@ -10,16 +10,6 @@ const routes = [
     name: 'Inicio',
     component: Inicio
   },
-  {
-    path: '/favoritos',
-    name: 'Favoritos',
-    component: Favoritos
-  },
-  {
-    path: '/listaopcoes',
-    name: 'Lista',
-    component: Lista
-  }
 ]
 
 const router = new VueRouter({

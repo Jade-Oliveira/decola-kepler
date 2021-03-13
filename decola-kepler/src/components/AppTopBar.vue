@@ -3,7 +3,7 @@
     <v-app-bar app color="pink lighten-3" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>  <p>Pascoa Acessível</p> </v-toolbar-title>
+      <v-toolbar-title> <p>Pascoa Acessível</p> </v-toolbar-title>
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" absolute temporary>
@@ -27,7 +27,7 @@
             </v-list-item>
           </router-link>
 
-          <router-link to="/listaopcoes">
+          <router-link to="/">
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-magnify</v-icon>
@@ -60,16 +60,9 @@ export default {
   font-family: "Sulphur Point";
   text-decoration: none;
 }
- p{
-   
-
+p {
   font-family: "Sulphur Point";
-
   text-align: center;
-
   font-size: 25px;
-
-
- }
-
+}
 </style>
