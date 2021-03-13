@@ -1,17 +1,22 @@
 <template>
   <div class="favorito">
     <h2>Favoritos</h2>
-    <ul>
-      <li v-for="favoritos of listaFavoritos" :key="favoritos.id">
-        <v-img class="img mr-5" :src="favoritos.imagem" alt="favoritos.nome"/>
-        <p>{{ favoritos.nome }} </p>        
-        <p>{{ favoritos.sabor }} </p>
-        <p>R$ {{ favoritos.preco }} </p>
-        <p>{{ favoritos.local.nome }} </p>
-        <p>Endereço: {{ favoritos.local.endereco }} </p>
-        <p>{{ favoritos.local.cep }} <br><br></p>
-      </li>
-    </ul>
+      <router-link to="/listaopcoes">
+        <div class="imagem">
+          <v-img
+            class="img mb-1"
+            :src="listaFavoritos[0].imagem"
+            :alt="listaFavoritos[0].nome"
+          />
+        </div>
+        <div class="imagem">
+          <v-img
+            class="img mb-1"
+            :src="listaFavoritos[1].imagem"
+            :alt="listaFavoritos[1].nome"
+          />
+          </div>
+      </router-link>
   </div>
 </template>
 
@@ -37,12 +42,16 @@ export default {
 h2{
   font-family: "Sulphur Point";
   text-align: center;
-  margin-top: 25px;
+  margin-top: 50px;
   font-size: 30px;
 }
 p{
   font-family: "Sulphur Point";
   text-align: center;
   font-size: 15px;
+}
+
+.imagem {
+  margin-bottom: 50px;
 }
 </style>
